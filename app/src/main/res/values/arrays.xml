@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="upload_images">
+        <item>Pilih dari galeri</item>
+        <item>Ambil dari kamera</item>
+        <item>Hapus gambar</item>
+    </string-array>
+
+    <string-array name="itemIds">
+        <item>gallery_image</item>
+        <item>camera_image</item>
+        <item>remove_image</item>
+    </string-array>
+</resources>

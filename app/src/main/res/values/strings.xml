@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Aplikasi BukuKu</string>
+    <string name="judul_buku">Judul Buku</string>
+    <string name="penerbit">Penerbit</string>
+    <string name="penulis">Penulis</string>
+    <string name="error_no_word">ERROR: TIDAK ADA DATA</string>
+    <string name="empty_word_not_saved">Buku tidak tersimpan karena judul kosong.</string>
+    <string name="not_deleted">"Tidak dapat dihapus "</string>
+    <string name="simpan">Simpan</string>
+    <string name="judul_baru">Judul Baru</string>
+    <string name="penerbit_baru">Penerbit Baru</string>
+    <string name="penulis_baru">Penulis Baru</string>
+    <string name="search">Search</string>
+    <string name="cari">Cari</string>
+    <string name="cari_data">Tap untuk mencari data</string>
+    <string name="hasil_pencarian">Hasil Pencarian</string>
+</resources>
