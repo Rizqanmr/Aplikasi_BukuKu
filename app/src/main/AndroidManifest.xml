@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".activity.AboutActivity"
+            android:parentActivityName=".activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity" />
+        </activity>
         <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,19 +30,18 @@
                 android:value=".activity.MainActivity" />
         </activity>
         <activity android:name=".activity.SettingActivity" />
-        <activity android:name=".activity.DetailBukuActivity"
+        <activity
+            android:name=".activity.DetailBukuActivity"
             android:parentActivityName=".activity.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.MainActivity" />
         </activity>
 
-
         <provider
             android:name=".database.BukuProvider"
             android:authorities="com.rizqanmr.bukuku.provider"
-
-            android:exported="true"></provider>
+            android:exported="true" />
     </application>
 
 </manifest>

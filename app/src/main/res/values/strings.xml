@@ -14,4 +14,9 @@
     <string name="cari">Cari</string>
     <string name="cari_data">Tap untuk mencari data</string>
     <string name="hasil_pencarian">Hasil Pencarian</string>
+    <string name="about">About</string>
+    <string name="setting">Setting</string>
+    <string name="my_name">Rizqan Mubarak Rahman</string>
+    <string name="nim">4817080481</string>
+    <string name="kelas">TI - CBD 6B</string>
 </resources>

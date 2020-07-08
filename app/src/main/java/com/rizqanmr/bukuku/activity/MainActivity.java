@@ -90,6 +90,9 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
            case R.id.setting:
                startActivity(new Intent(getApplicationContext(), SettingActivity.class));
                 return true;
+            case R.id.about:
+                startActivity(new Intent(getApplicationContext(),AboutActivity.class));
+                return true;
             default:
                 return false;
         }
